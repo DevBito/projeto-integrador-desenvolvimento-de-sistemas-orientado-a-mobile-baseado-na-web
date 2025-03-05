@@ -13,9 +13,10 @@ Este é um projeto desenvolvido para criar um sistema simples de agendamento de 
 ## Como Desenvolvemos o Projeto
 
 1. **Configuração Inicial**
-   - Criamos o ambiente Flask e configuramos o banco de dados SQLite para armazenar os dados.
-   - Definimos as configurações básicas em um arquivo `config.py` e inicializamos o SQLAlchemy em `database.py`.
-
+   - Criamos o ambiente Flask e configuramos o banco de dados SQLite .
+   - Definimos as configurações básicas em um arquivo `config.py`.
+   - O SQLAlchemy é inicializado em database.py para gerenciar o banco de dados.
+     
 2. **Modelos de Dados**
    - Em `models.py`, definimos as tabelas necessárias: usuários, hospitais, especialidades, médicos, agendamentos e administradores.
    - Os modelos foram criados para permitir relacionamentos, por exemplo, cada agendamento se liga a um hospital, especialidade e médico.
