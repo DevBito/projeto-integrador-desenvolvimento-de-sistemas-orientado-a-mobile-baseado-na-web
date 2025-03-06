@@ -5,8 +5,8 @@ Neste projeto, desenvolvemos um sistema simples de agendamento de consultas em h
 
 ## Tecnologias Usadas
 
-- **Backend:** Python 3, Flask, Flask-SQLAlchemy, SQLite
-- **Frontend:** HTML, CSS, JavaScript puro
+- **Backend:** Python 3, Flask, Flask-SQLAlchemy, SQLite.
+- **Frontend:** HTML, CSS, JavaScript puro.
 
 
 ## Passo a Passo
