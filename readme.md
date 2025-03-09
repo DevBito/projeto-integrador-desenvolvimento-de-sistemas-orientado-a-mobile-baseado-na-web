@@ -1,20 +1,28 @@
 
-# App Saúde - Sistema de Agendamento Hospitalar
+# 🏥 App Saúde - Sistema de Agendamento Hospitalar
 
-Neste projeto, desenvolvemos um sistema simples de agendamento de consultas em hospitais. O sistema foi feito usando Flask no backend e HTML, CSS e JavaScript puro no frontend. 
+Este projeto desenvolve um sistema simples de agendamento de consultas em hospitais, utilizando Flask no backend e HTML, CSS e JavaScript puro no frontend.
 
-## Tecnologias Usadas
+## 🚀 Tecnologias Usadas
 
-- **Backend:** Python 3, Flask, Flask-SQLAlchemy, SQLite.
-- **Frontend:** HTML, CSS, JavaScript puro.
+**Backend:** 
+- Python 3
+- Flask
+- Flask-SQLAlchemy
+- SQLite.
+  
+**Frontend:** 
+- HTML
+- CSS
+- JavaScript puro.
 
 
 ## Passo a Passo
 
 1. **Configuração e Modelos:**
-   -Criamos o ambiente Flask e configuramos o banco de dados SQLite.
-   -As configurações principais estão no arquivo config.py.
-   -O SQLAlchemy é inicializado em database.py para gerenciar o banco de dados.
+   - 🔧 Criamos o ambiente Flask e configuramos o banco de dados SQLite.
+   - ⚙️ As configurações principais estão no arquivo config.py.
+   - 🏗️ O SQLAlchemy é inicializado em database.py para gerenciar o banco de dados.
 
 3. **Modularização das Rotas:**
    - As rotas foram divididas em blueprints na pasta `routes/`. Temos rotas para a área pública, para o admin e para o paciente.
@@ -56,6 +64,6 @@ Neste projeto, desenvolvemos um sistema simples de agendamento de consultas em h
 
 ## Conclusão
 
-Este aplicativo mostra um sistema básico de agendamento hospitalar usando Flask e tecnologias web simples. Foi desenvolvido de forma modular e responsiva, com áreas diferenciadas para pacientes e administradores. Esse projeto serve como base para estudo e pode ser expandido com novas funcionalidades, conforme necessário.
+Este aplicativo é um sistema básico de agendamento hospitalar utilizando Flask e tecnologias web simples. Desenvolvido de forma modular e responsiva, ele conta com diferentes áreas para pacientes e administradores.
 
 
